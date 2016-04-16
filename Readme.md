@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Павел Карачев](https://up.htmlacademy.ru/htmlcss/13/user/198655).
-* Наставник: `Неизвестно`.
+* Студент: [Павел :like: Карачев](https://up.htmlacademy.ru/htmlcss/13/user/198655).
+* Наставник: [Ира Ожерельева](https://up.htmlacademy.ru/htmlcss/13/user/3762).
 
 ---
 
