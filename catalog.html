@@ -26,6 +26,41 @@
 			</div>
 	 	</header>
 		
+		<main class="container">
+			<div class="catalog-filters">
+				<h2 class="catalog-filters-title">Инфраструктура:</h2>
+				<form action="https://echo.htmlacademy.ru" method="get">
+					<label>
+						<input type="checkbox" checked>Бассейн
+					</label>
+					<label>
+						<input type="checkbox">Парковка
+					</label>
+					<label>
+						<input type="checkbox">Wi-Fi
+					</label>
+				</form>
+				<h2 class="catalog-filtres-title">Тип жилья:</h2>
+				<form action="https://echo.htmlacademy.ru" method="get">
+					<label>
+						<input type="checkbox" checked >Гостиница
+					</label>
+					<label>
+						<input type="checkbox" checked>Мотель
+					</label>
+					<label>
+						<input type="checkbox" checked>Апартаменты
+					</label>
+				</form>
+				<h2 class="catalog-filters-title">Стоимость в сутки (Р):</h2>
+				<div class="price-control"> <!-- Или лучше формой? -->
+					<input class="min-price" type="text" value="от 0">
+					<input class="max-price" type="text" value="до 3000">
+					<button class="btn" type="submit">Показать</button>
+				</div>
+			</div>
+		</main>
+		
 		<footer class="main-footer">
 			<div class="container">
 			  	<section class="footer-hashtag">
