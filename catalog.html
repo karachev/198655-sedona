@@ -1,116 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<title>HTML Academy: Седона</title>
-	</head>
-	<body>
-	 	<header class="main-header">
-	  		<div class="container">
-				<nav class="main-navigation">
-					<ul>
-						<li>
-							<a href="#">Информация</a>
-						</li>
-						<li>
-							<a href="#">Фото и видео</a>
-						</li>
-						<li>
-							<a href="#">Карта штата</a>
-						</li>
-						<li>
-							<a href="#">Гостиница</a>
-						</li>
-					</ul> 	
-				</nav>
-			</div>
-	 	</header>
-		
-		<main class="container">
-			<div class="catalog-filters">
-				<h2 class="catalog-filters-title">Инфраструктура:</h2>
-				<form action="https://echo.htmlacademy.ru" method="get">
-					<label>
-						<input type="checkbox" checked>Бассейн
-					</label>
-					<label>
-						<input type="checkbox">Парковка
-					</label>
-					<label>
-						<input type="checkbox">Wi-Fi
-					</label>
-				</form>
-				<h2 class="catalog-filtres-title">Тип жилья:</h2>
-				<form action="https://echo.htmlacademy.ru" method="get">
-					<label>
-						<input type="checkbox" checked >Гостиница
-					</label>
-					<label>
-						<input type="checkbox" checked>Мотель
-					</label>
-					<label>
-						<input type="checkbox" checked>Апартаменты
-					</label>
-				</form>
-				<h2 class="catalog-filters-title">Стоимость в сутки (Р):</h2>
-				<div class="price-control"> <!-- Или лучше формой? -->
-					<input class="min-price" type="text" value="от 0">
-					<input class="max-price" type="text" value="до 3000">
-					<button class="btn" type="submit">Показать</button>
-				</div>
-			</div>
-			<div class="catalog-filters-result">
-				<h1 class="result-title">Найдено: 3</h1>
-				<section class="result-sort">
-					<p>Сортировка:</p>
-					<a class="result-btn result-btn-price" href="#">По цене</a>
-					<a class="result-btn result-btn-type" href="#">По типу</a>
-					<a class="result-btn result-btn-rating" href="#">По рейтингу</a>
-				</section>
-				<section class="result">
-					<section class="result-1">
-						<img src="http://placehold.it/150x100" alt="Amara Resort & Spa">
-						<h1 class="result-title">Amara Resort & Spa</h1>
-						<p>Гостиница от 3500 Р</p>
-						<a class="btn result-btn-more" href="#">Подробнее</a>
-						<a class="result-btn-booked" href="#">Забронировать</a>
-						<p>Рейтинг: 8,5</p>
-					</section>
-					<section class="result-2">
-						<img src="http://placehold.it/150x100" alt="Desert Quail Inn">
-						<h1 class="result-title">Desert Quail Inn</h1>
-						<p>Гостиница от 2000 Р</p>
-						<a class="btn result-btn-more" href="#">Подробнее</a>
-						<a class="result-btn-booked" href="#">Забронировать</a>
-						<p>Рейтинг: 8,9</p>
-					</section>
-					<section class="result-3">
-						<img src="http://placehold.it/150x100" alt="Villas At Poco Diablo">
-						<h1 class="result-title">Villas At Poco Diablo</h1>
-						<p>Гостиница от 4000 Р</p>
-						<a class="btn result-btn-more" href="#">Подробнее</a>
-						<a class="result-btn-booked" href="#">Забронировать</a>
-						<p>Рейтинг: 9,2</p>
-					</section>
-				</section>
-			</div>
-		</main>
-		
-		<footer class="main-footer">
-			<div class="container">
-			  	<section class="footer-hashtag">
-				 	<p>#visitsedona</p>
-			  	</section>
-			  	<section class="footer-social">
-				  	<a class="social-btn social-btn-twitter" href="#">Twitter</a>
-				  	<a class="social-btn social-btn-facebook" href="#">Facebook</a>
-				  	<a class="social-btn social-btn-youtube" href="#">YouTube</a>
-			  	</section>
-			  	<section class="footer-copyright">
-				 	<p>Website by</p>
-				 	<a class="btn" href="https://htmlacademy.ru/">HTML Academy</a>
-			  	</section>
-		  	</div>
-	  	</footer>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="#">Гостиница</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="catalog-filters">
+        <h2 class="catalog-filters-title">Инфраструктура:</h2>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <label>
+            <input type="checkbox" checked>Бассейн
+          </label>
+          <label>
+            <input type="checkbox">Парковка
+          </label>
+          <label>
+            <input type="checkbox">Wi-Fi
+          </label>
+        </form>
+        <h2 class="catalog-filtres-title">Тип жилья:</h2>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <label>
+            <input type="checkbox" checked >Гостиница
+          </label>
+          <label>
+            <input type="checkbox" checked>Мотель
+          </label>
+          <label>
+            <input type="checkbox" checked>Апартаменты
+          </label>
+        </form>
+        <h2 class="catalog-filters-title">Стоимость в сутки (Р):</h2>
+        <div class="price-control"> <!-- Или лучше формой? -->
+          <input class="min-price" type="text" value="от 0">
+          <input class="max-price" type="text" value="до 3000">
+          <button class="btn" type="submit">Показать</button>
+        </div>
+      </div>
+      <div class="catalog-filters-result">
+        <h1 class="result-title">Найдено: 3</h1>
+        <section class="result-sort">
+          <p>Сортировка:</p>
+          <a class="result-btn result-btn-price" href="#">По цене</a>
+          <a class="result-btn result-btn-type" href="#">По типу</a>
+          <a class="result-btn result-btn-rating" href="#">По рейтингу</a>
+        </section>
+        <section class="result">
+          <section class="result-1">
+            <img src="http://placehold.it/150x100" alt="Amara Resort & Spa">
+            <h1 class="result-title">Amara Resort & Spa</h1>
+            <p>Гостиница от 3500 Р</p>
+            <a class="btn result-btn-more" href="#">Подробнее</a>
+            <a class="result-btn-booked" href="#">Забронировать</a>
+            <p>Рейтинг: 8,5</p>
+          </section>
+          <section class="result-2">
+            <img src="http://placehold.it/150x100" alt="Desert Quail Inn">
+            <h1 class="result-title">Desert Quail Inn</h1>
+            <p>Гостиница от 2000 Р</p>
+            <a class="btn result-btn-more" href="#">Подробнее</a>
+            <a class="result-btn-booked" href="#">Забронировать</a>
+            <p>Рейтинг: 8,9</p>
+          </section>
+          <section class="result-3">
+            <img src="http://placehold.it/150x100" alt="Villas At Poco Diablo">
+            <h1 class="result-title">Villas At Poco Diablo</h1>
+            <p>Гостиница от 4000 Р</p>
+            <a class="btn result-btn-more" href="#">Подробнее</a>
+            <a class="result-btn-booked" href="#">Забронировать</a>
+            <p>Рейтинг: 9,2</p>
+          </section>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-hashtag">
+          <p>#visitsedona</p>
+        </section>
+        <section class="footer-social">
+          <a class="social-btn social-btn-twitter" href="#">Twitter</a>
+          <a class="social-btn social-btn-facebook" href="#">Facebook</a>
+          <a class="social-btn social-btn-youtube" href="#">YouTube</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Website by</p>
+          <a class="btn" href="https://htmlacademy.ru/">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
