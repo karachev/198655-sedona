@@ -6,6 +6,13 @@ body {
   font-family: PT Sans;
 }
 
+html,
+body {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
 h2.title-booking {
   font-size: 30px;
   line-height: 24px;
@@ -35,3 +42,19 @@ h2.catalog-filters-title {
   color: #ffffff;
   font-weight: bold;
 }
+
+.main-navigation li {
+  display: inline;
+}
+
+.main-navigation {
+  width: 1200px;
+  min-height: 56px;  
+}
+
+.index-logo {
+  width: 1200px; height: 780px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
