@@ -6,6 +6,12 @@ body {
   font-family: PT Sans;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 html,
 body {
   width: 1200px;
@@ -43,19 +49,27 @@ h2.catalog-filters-title {
   font-weight: bold;
 }
 
-.main-navigation li {
-  display: inline;
-}
-
 .main-navigation {
   width: 1200px;
   min-height: 56px;  
 }
 
+.main-navigation li {
+  display: inline-block;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: -5px;
+}
+
+.main-navigation li:last-child {
+   width: 20%;
+}
+
 .container {
   width: 1200px;
+  display: inline-block;
   margin: 0 auto;
-  padding: 0px;
 }
 
 .main-footer {
@@ -84,28 +98,12 @@ h2.catalog-filters-title {
   min-height: 49px;
 }
 
-.catalog-filters {
-  width: 1200px;
-  min-height: 218px;
-}
-
-#infrastructure {
-  float: left;
-  width: 241px;
-  min-height: 217px;
-}
-
-#type {
-  float: left;
-  width: 288px;
-  min-height: 217px;
-}
 
 /* index.html index-main-information */
-.index-logo {
-  width: 1200px; height: 508px;
-  margin-right: auto;
-  margin-left: auto;
+.promo-logo {
+  width: 1200px; 
+  min-height: 508px;
+  padding: 0px;
 }
 
 .index-main-information {
@@ -160,4 +158,51 @@ h2.catalog-filters-title {
 
 .description-bottom:nth-child(3n) {
   float: right;
+}
+
+.index-search {
+  width: 1200px;
+  min-height: 884px;
+  background-image: url(../img/map.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.index-search form {
+  width: 568px;
+  height: 482px;
+  margin: 200px 316px;
+}
+
+
+/*catalog.html*/
+.catalog-filters {
+  width: 1200px;
+  min-height: 217px;
+  background-image: url('../img/photo-sedona3.jpg');
+}
+
+#infrastructure {
+  float: left;
+  width: 241px;
+  min-height: 217px;
+}
+
+#type {
+  float: left;
+  width: 288px;
+  min-height: 217px;
+  padding-left: 20px;
+}
+
+.price-control {
+  float: right;
+  width: 328px;
+  min-height: 217px;
+  margin-right: 73px;
+}
+
+.catalog-filters-result {
+  width: 1200px;
+  min-height: 540px;
 }
