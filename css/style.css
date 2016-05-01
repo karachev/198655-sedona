@@ -49,9 +49,15 @@ h2.catalog-filters-title {
   font-weight: bold;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .main-navigation {
   width: 1200px;
-  min-height: 56px;  
+  min-height: 56px;
+  margin: 0 auto;
 }
 
 .main-navigation li {
@@ -64,12 +70,6 @@ h2.catalog-filters-title {
 
 .main-navigation li:last-child {
    width: 20%;
-}
-
-.container {
-  width: 1200px;
-  display: inline-block;
-  margin: 0 auto;
 }
 
 .main-footer {
@@ -126,16 +126,9 @@ h2.catalog-filters-title {
   min-height: 256px;
 }
 
-.features-left,
-.features-center {
+.features-item {
   float: left;
-  width: 400px;
-  min-height: 330px;
-}
-
-.features-right {
-  float: right;
-  width: 400px;
+  width: 33.3%;
   min-height: 330px;
 }
 
