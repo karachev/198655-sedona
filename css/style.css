@@ -102,8 +102,9 @@ h2.catalog-filters-title {
 /* index.html index-main-information */
 .promo-logo {
   width: 1200px; 
-  min-height: 508px;
+  min-height: 564px;
   padding: 0px;
+  background-image: url("../img/main-photo.jpg");
 }
 
 .index-main-information {
