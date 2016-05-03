@@ -7,8 +7,8 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <nav class="main-navigation clearfix">
+      <div class="container clearfix">
+        <nav class="main-navigation">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -31,10 +31,18 @@
     </header>
     <main class="container">
       <div class="promo-logo">
-        <img src="img/welcome-logo.png">
-        <img src="img/welcome-logo2.png">
-        <img src="img/welcome-logo3.png">
-        <img src="img/welcome-logo4.png">
+        <div class="promo-logo-pic1">
+          <img src="img/welcome-logo.png">
+        </div>
+        <div class="promo-logo-pic2">
+          <img src="img/welcome-logo2.png">
+        </div>
+        <div class="promo-logo-pic3">
+          <img src="img/welcome-logo3.png">
+        </div>
+        <div class="promo-logo-pic4">
+          <img src="img/welcome-logo4.png">
+        </div>
       </div>
       <div class="index-main-information">
         <div class="entry">
@@ -92,28 +100,28 @@
               <p>Большинство едет в Гранд Каньон и Толпится там</p>
             </div>
         </div>
+      </div>
       <div class="index-search">
         <h2 class="title-booking">Заинтересовались</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <form  action="https://echo.htmlacademy.ru" method="post">
           <h3>Поиск гостиницы в Седоне</h3>
-          <p>Дата заезда</p>
-          <label>
-            <input type="text" value="24 апреля 2016">
+          <label for="date-start">
+            <p>Дата заезда</p>
           </label>
-          <p>Дата выезда</p>
-          <label>
-            <input type="text" value="4 июля 2016">
+          <input type="text" value="24 апреля 2016" id="date-start">
+          <label for="date-end">
+            <p>Дата выезда</p>
           </label>
-          <p>Взрослые</p>
-          <label>
-            <input type="text" value="2">
+          <input type="text" value="4 июля 2016" id="date-end">
+          <label for="adult">
+            <p>Взрослые</p>
           </label>
-          <p>Дата дети</p>
-          <label>
-            <input type="text" value="0">
+          <input type="text" value="2" id="adult">
+          <label for="children">
+            <p>Дата дети</p>
           </label>
-          <a class="btn" href="#">Найти</a>
+          <input type="text" value="0" id="children">
           <button class="btn" type="submit">Найти</button>
         </form>
       </div>
