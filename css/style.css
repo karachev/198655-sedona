@@ -43,7 +43,7 @@ h3.white {
   color: #ffffff;
 }
 
-h1.result-title {
+li.result-title {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
@@ -72,23 +72,25 @@ h2.catalog-filters-title {
 }
 
 .main-footer {
-  margin-top: -200px;
   width: 1200px;
 }
 
 .footer-hashtag {
   float: left;
   width: 33.3%;
+  text-align: center;
 }
 
 .footer-social {
   float: left;
   width: 33.3%;
+  text-align: center;
 }
 
 .footer-copyright {
   float: right;
   width: 33.3%;
+  text-align: center;
 }
 
 
@@ -223,3 +225,41 @@ h2.catalog-filters-title {
   width: 1200px;
   min-height: 540px;
 }
+
+.sort {
+  float: right;
+}
+
+.type-sort {
+  list-style: none;
+  float: left;
+}
+
+.type-sort li {
+  display: inline;
+}
+
+.result-image {
+  float: left;
+}
+
+.details {
+  float: left;
+  width: 110px;
+  height: 60px;
+}
+
+.price {
+  float: left;
+  width: 142px;
+  height: 60px
+}
+
+.rating {
+  float: right;
+  width: 110px;
+  height: 152px;
+}
+
+
+/*заливки*/
