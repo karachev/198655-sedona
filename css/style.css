@@ -1,9 +1,11 @@
 body {
   font-size: 14px;
   line-height: 21px;
-  color: #333333;
   font-weight: regular;
-  font-family: PT Sans;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #ffffff;
 }
 
 html,
@@ -63,14 +65,54 @@ h2.catalog-filters-title {
   margin: 0 auto;
 }
 
+.main-navigation ul {
+  margin-top: 14px;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
 .main-navigation li {
   display: inline-block;
   width: 20%;
   margin: 0 auto;
   text-align: center;
-  margin-left: -4px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
   vertical-align: middle;
 }
+
+
+.main-navigation a {
+  display: block;
+  width: 85px;
+  margin: 0 auto;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Подумать*/
+.main-navigation li:nth-child(3) {
+  height: 55px
+}
+
+.main-navigation a img {
+  position: relative;
+}
+
+.back {
+  z-index: 1;
+  left: -25px
+}
+
+.font {
+  z-index: 2;
+  top: -77px;
+}
+
+/*Закончить подумать*/
+
 
 .main-footer {
   width: 1200px;
@@ -102,7 +144,6 @@ h2.catalog-filters-title {
   min-height: 508px;
   padding: 0px;
   background-image: url("../img/main-photo.jpg");
-  margin-top: -20px;
   text-align: center;
 }
 
