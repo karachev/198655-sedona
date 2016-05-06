@@ -2,7 +2,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-weight: regular;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #333333;
   text-transform: uppercase;
   background-color: #ffffff;
@@ -86,7 +86,7 @@ h2.catalog-filters-title {
 
 .main-navigation a {
   display: block;
-  width: 85px;
+  width: 105px;
   margin: 0 auto;
   color: #000000;
   text-decoration: none;
@@ -113,6 +113,107 @@ h2.catalog-filters-title {
 
 /*Закончить подумать*/
 
+
+.index-main-information {
+  width: 1200px;
+  min-height: 1315px;
+  padding-top: 60px;
+  
+  text-align: center;
+}
+
+.entry {
+  width: 500px;
+  min-height: 140px;
+  text-align: center;
+  margin: 0 auto;
+  
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.entry p {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.description {
+    
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 21px;
+  
+  background: #81b3d2;
+  color: #ffffff;
+}
+
+.description h3 {
+  display: block;
+  margin-top: 60px;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description p,
+.description .numbers{
+  width: 300px;
+  margin: 20px auto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.features-item {
+  position: relative;
+}
+
+.features-logo {
+  position: absolute;
+  top: 64px;
+  left: 165px;
+  
+}
+
+.features-name {
+  display: inline-block;
+  margin-top: 165px;
+  
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.features-item p {
+  display: block;
+  width: 300px;
+  margin: 20px 50px;
+}
+
+.item2 p {
+  display: block;
+  width: 320px;
+}
+
+.description-bottom {
+  background-color: #eeeeee;
+}
+
+.description-bottom .advantages {
+  display: block;
+  width: 160px;
+  margin: 50px auto;
+}
+
+.description-bottom span {
+  display: block;
+  margin-top: -25px;
+}
+
+.description-bottom p {
+  display: block;
+  width: 260px;
+  margin: 20px auto;
+}
 
 .main-footer {
   width: 1200px;
@@ -163,18 +264,9 @@ h2.catalog-filters-title {
   padding-top: 50px;
 }
 
-.index-main-information {
-  width: 1200px;
-  min-height: 1315px;
-  padding-top: 100px;
-}
 
-.entry {
-  width: 576px;
-  min-height: 217px;
-  text-align: center;
-  margin: 0 auto;
-}
+
+
 
 .item1 {
   float: left;
