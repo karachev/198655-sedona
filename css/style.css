@@ -28,6 +28,11 @@ body {
   margin: 0 auto;
 }
 
+.wrapper {
+    width: 1056px;
+    margin: 0 auto;
+}
+
 .main-navigation {
   width: 1200px;
   min-height: 56px;
@@ -694,10 +699,7 @@ form .date {
     background: #406c90 url(../img/photo-sedona3.jpg) no-repeat;
 }
 
-.wrapper {
-    width: 1056px;
-    margin: 0 auto;
-}
+
 
 .wrapper form {
     display: block;
@@ -763,4 +765,91 @@ label {
     font-family: "symbols-sedona";
     font-size: 26px;
     line-height: 20px;
+}
+
+/*СОРТИРОВКА*/
+
+.filter-value {
+    padding: 30px 0 29px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.search-result {
+    float: left;
+    width: 135px;
+    margin-right: 27px;
+}
+
+.header-text-bold {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.sort-type {
+    float: left;
+    width: 430px;
+    padding: 5px 0 0;
+}
+
+.sort-hotels-item, .sort-hotels-title {
+    margin-right: 37px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.item-header:hover, .sort-item-active {
+    color: #81b3d2;
+}
+
+.sort-hotels-item {
+    margin-right: 29px;
+    border-bottom: 1px dotted #81b3d2;
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+.sort-hotels-item, .sort-hotels-title {
+    margin-right: 37px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.ask-desk-icons {
+    float: right;
+    width: 42px;
+    padding: 5px 2px 0 0;
+    font-size: 0;
+}
+
+.ask-desk-icons a {
+    display: inline-block;
+    width: 20px;
+    color: #e5e5e5;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+
+.icon-up-dir::before {
+    content: "\25b2";
+}
+
+.icon-down-dir::before {
+    content: "\25bc";
+}
+
+
+
+
+.icon-up-dir:hover {
+  color: #81b3d2;
+}
+
+.icon-down-dir:hover {
+  color: #81b3d2;
 }
