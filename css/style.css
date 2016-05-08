@@ -346,31 +346,7 @@ form p {
 }
 
 /*catalog.html*/
-.catalog-filters {
-  width: 1200px;
-  min-height: 217px;
-  background-image: url('../img/photo-sedona3.jpg');
-}
 
-#infrastructure {
-  float: left;
-  width: 241px;
-  min-height: 217px;
-}
-
-#type {
-  float: left;
-  width: 288px;
-  min-height: 217px;
-  padding-left: 20px;
-}
-
-.price-control {
-  float: right;
-  width: 328px;
-  min-height: 217px;
-  margin-right: 73px;
-}
 
 .catalog-filters-result {
   width: 1200px;
@@ -432,23 +408,13 @@ form p {
   
 }
 
-.catalog-filters label {
-  display: block;
-  width: 130px;
-  margin-left: 76px;
-  margin-bottom: 25px;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 21px;
-}
-
 .footer-copyright .btn {
   display: block;
   background: url(../img/logo-htmlacademy.png) no-repeat center;
   width: 115px;
   height: 40px;
   font-size: 0px;
-  margin: -40px 185px;;
+  margin: -40px 185px;
 }
 
 .social-btn {
@@ -475,17 +441,6 @@ form p {
 .footer-copyright p {
   display: inline-block;
   padding-right: 120px;
-}
-
-.left {
-  display: block;
-  margin: 27px 75px;
-}
-
-.catalog-filters input[type="checkbox"] {
-  opacity: 0;
-  width: 22px;
-  height: 22px;
 }
 
 .filter-range {
@@ -637,10 +592,6 @@ form p {
   line-height: 26px;
 }
 
-.type-sort {
-  font-size: 12px;
-  font-weight: 18px;
-}
 .result-1 {
   border-top: 1px solid #e5e5e5;
 }
@@ -656,17 +607,6 @@ form p {
 
 .index-search input[type="text"] {
   background: #f2f2f2 url(../img/calendar.png) no-repeat 317px;
-}
-
-.btn {
-  background: #81b3d2;
-  color: #ffffff;
-  width: 458px;
-  height: 60px;
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
-  border: none;
 }
 
 .numbers::after {
@@ -707,4 +647,120 @@ form p {
 
 form .date {
   margin-top: 55px;
+}
+
+.index-search .adult {
+  width: 114px;
+  height: 38px;
+  margin-left: 65px;
+  text-align: center;
+}
+
+.index-search .children {
+  width: 114px;
+  height: 38px;
+}
+
+.small-box-adult {
+  width: 72px;
+  margin: 0;
+  margin-left: 35px;
+}
+
+.small-box-children {
+  width: 72px;
+  margin: 0;
+  margin-right: 27px;
+}
+
+.button {
+  background: #81b3d2;
+  color: #ffffff;
+  width: 458px;
+  height: 60px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  border: none;
+  margin-top: 54px;
+}
+
+.main-navigation a:hover {
+  color: #81b3d2;
+}
+
+.filter {
+    min-height: 216px;
+    background: #406c90 url(../img/photo-sedona3.jpg) no-repeat;
+}
+
+.wrapper {
+    width: 1056px;
+    margin: 0 auto;
+}
+
+.wrapper form {
+    display: block;
+    margin-top: 0px;
+}
+
+.filter-accommodation-type, .filter-infrastructure {
+    float: left;
+    width: 175px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+}
+.filter-infrastructure {
+    margin-right: 80px;
+}
+
+
+.filter-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.filter-label {
+    padding: 5px 0;
+}
+
+label {
+    cursor: default;
+}
+
+.check-icon:checked+label:before {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    color: #fff;
+    content: "\2611";
+    vertical-align: top;
+    font-family: "symbols-sedona";
+    font-size: 26px;
+    line-height: 20px;
+}
+
+[hidden], template {
+    display: none;
+}
+
+.check-icon+label:before {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    color: #fff;
+    content: "\2610";
+    vertical-align: top;
+    font-family: "symbols-sedona";
+    font-size: 26px;
+    line-height: 20px;
 }

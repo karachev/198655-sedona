@@ -33,45 +33,60 @@
       </div>
     </header>
     <main class="container">
-      <div class="catalog-filters">
-        <form action="https://echo.htmlacademy.ru" method="get" id="infrastructure">
-          <h2 class="filters-title left">Инфраструктура:</h2>
-          <label>
-            <input type="checkbox" checked>Бассейн
-          </label>
-          <label>
-            <input type="checkbox">Парковка
-          </label>
-          <label>
-            <input type="checkbox">Wi-Fi
-          </label>
-        </form>
-        <form action="https://echo.htmlacademy.ru" method="get" id="type">
-          <h2 class="filters-title left">Тип жилья:</h2>
-          <label>
-            <input type="checkbox" checked >Гостиница
-          </label>
-          <label>
-            <input type="checkbox" checked>Мотель
-          </label>
-          <label>
-            <input type="checkbox" checked>Апартаменты
-          </label>
-        </form>
-        <div class="filter-range">
-          <div class="filter-range-title">Стоимость в сутки (р):</div>
-          <div class="price-controls">
-            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-            <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-          </div>
-          <div class="range-controls">
-            <div class="scale">
-              <div class="bar"></div>
+      
+      <div class="filter">
+        <div class="wrapper clearfix">
+          <form class="clearfix" action="https://echo.sedona.ru" method="get" name="filter-search">
+            <div class="filter-infrastructure">
+              <h3 class="filter-header">Инфраструктура:</h3>
+              <ul class="filter-list">
+                <li>
+                  <input class="check-icon" type="checkbox" id="pool" checked hidden>
+                  <label class="filter-label" for="pool">Бассейн</label>
+                </li>
+                <li>
+                  <input class="check-icon" type="checkbox" id="parking" disabled hidden>
+                  <label class="filter-label" for="parking">Парковка</label>
+                </li>
+                <li>
+                  <input class="check-icon" type="checkbox" id="wifi" hidden>
+                  <label class="filter-label" for="wifi">Wi-Fi</label>
+                </li>
+              </ul>
             </div>
-            <div class="range-toggle range-toggle-min"></div>
-            <div class="range-toggle range-toggle-max"></div>
-          </div>
-          <button class="btn-transparent" type="submit">Показать</button>
+            <div class="filter-accommodation-type">
+              <h3 class="filter-header">Тип жилья:</h3>
+              <ul class="filter-list">
+                <li>
+                  <input class="check-icon" type="checkbox" id="hotel" checked hidden>
+                  <label class="filter-label" for="hotel">Гостиница</label>
+                </li>
+                <li>
+                  <input class="check-icon" type="checkbox" id="motel" checked disabled hidden>
+                  <label class="filter-label" for="motel">Мотель</label>
+                </li>
+                <li>
+                  <input class="check-icon" type="checkbox" id="apartments" checked hidden>
+                  <label class="filter-label" for="apartments">Апартаменты</label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter-range">
+              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              </div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+              <button class="btn-transparent" type="submit">Показать</button>
+            </div>
+          </form>
         </div>
       </div>
       <div class="catalog-filters-result">
