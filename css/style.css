@@ -28,11 +28,6 @@ body {
   margin: 0 auto;
 }
 
-
-*/
-
-
-
 .main-navigation {
   width: 1200px;
   min-height: 56px;
@@ -241,7 +236,7 @@ body {
 
 form p {
   
-  display: block;
+  display: inline-block;
   width: 150px;
   margin: 0px 20px;
   
@@ -304,10 +299,6 @@ form p {
   padding-top: 50px;
 }
 
-
-
-
-
 .item1 {
   float: left;
   width: 33.3%;
@@ -353,9 +344,6 @@ form p {
 .description-bottom:nth-child(3n) {
   float: right;
 }
-
-
-
 
 /*catalog.html*/
 .catalog-filters {
@@ -431,20 +419,18 @@ form p {
 
 
 /*заливки*/
-.index-search > input {
-  width: 300px;
-  height: 30px;
+.index-search  input {
+  display: inline-block;
+  width: 346px;
+  height: 38px;
   background-color: #f2f2f2;
-  color: #fffff;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 26px;
-  margin-top: -150px;
-  margin-left: 0px;
+  margin-top: 25px;
+  
 }
-
-
 
 .catalog-filters label {
   display: block;
@@ -454,10 +440,6 @@ form p {
   color: #ffffff;
   font-size: 16px;
   line-height: 21px;
-}
-
-section {
-  
 }
 
 .footer-copyright .btn {
@@ -672,8 +654,8 @@ section {
   font-weight: 21px;
 }
 
-input[type="text"] {
-  background: #f2f2f2 url(../img/calendar.png) no-repeat right;
+.index-search input[type="text"] {
+  background: #f2f2f2 url(../img/calendar.png) no-repeat 317px;
 }
 
 .btn {
@@ -704,7 +686,6 @@ input[type="text"] {
   background: #81b3d2;
 }
 
-
 .numbers-grey::after {
   content: "";
   display: block;
@@ -723,3 +704,7 @@ input[type="text"] {
   background: #eeeeee;
 }
 
+
+form .date {
+  margin-top: 55px;
+}
