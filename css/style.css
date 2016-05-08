@@ -33,20 +33,6 @@ body {
 
 
 
-li.result-title {
-  font-size: 21px;
-  line-height: 26px;
-  color: #000000;
-  font-weight: bold;
-}
-
-h2.filters-title{
-  font-size: 16px;
-  line-height: 21px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
 .main-navigation {
   width: 1200px;
   min-height: 56px;
@@ -127,11 +113,9 @@ h2.filters-title{
 }
 
 .description {
-    
   font-size: 21px;
   font-weight: bold;
   line-height: 21px;
-  
   background: #81b3d2;
   color: #ffffff;
 }
@@ -269,7 +253,9 @@ form p {
 .main-footer {
   width: 1200px;
   height: 120px;
-  margin: -380px auto;
+  margin-top: -380px;
+  margin-left: auto;
+  margin-right: auto;
   background: rgba(255, 255, 255, 0.9)
 }
 
@@ -330,6 +316,7 @@ form p {
 
 .description-photo1 {
   float: right;
+  display: inline-block;
   width: 66.6%;
   height: 256px;
 }
@@ -407,16 +394,21 @@ form p {
 }
 
 .type-sort {
+  display: inline-block;
   list-style: none;
   float: left;
+  margin-left: -500px;
+  margin-top: 35px;
 }
 
 .type-sort li {
   display: inline;
+  padding-right: 10px;
 }
 
 .result-image {
   float: left;
+  margin: 30px 70px;
 }
 
 .details {
@@ -649,3 +641,85 @@ section {
 
   background: #ffffff;
 }
+
+
+.filters-title {
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.result-title {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.type-sort {
+  font-size: 12px;
+  font-weight: 18px;
+}
+.result-1 {
+  border-top: 1px solid #e5e5e5;
+}
+
+.about .result-title {
+  padding: 5px 5px;
+}
+
+.entry p {
+  font-size: 14px;
+  font-weight: 21px;
+}
+
+input[type="text"] {
+  background: #f2f2f2 url(../img/calendar.png) no-repeat right;
+}
+
+.btn {
+  background: #81b3d2;
+  color: #ffffff;
+  width: 458px;
+  height: 60px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  border: none;
+}
+
+.numbers::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -11px;
+  z-index: 1;
+  border-bottom: 1px solid #ffffff;
+  width: 50px;
+  margin: 0 auto;
+}
+.numbers {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  background: #81b3d2;
+}
+
+
+.numbers-grey::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -11px;
+  z-index: 1;
+  border-bottom: 1px solid #000000;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.numbers-grey {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  background: #eeeeee;
+}
+
