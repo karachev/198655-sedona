@@ -17,7 +17,10 @@
               <a href="#">Фото и видео</a>
             </li>
             <li>
-              <a href="index.html"><img src="img/logo-sedona-small.png" width="67" height="56" alt="Логотип Седоны"></a>
+              <a href="index.html">
+                <img src="img/for-logo-sedona.png" class="back">
+                <img src="img/logo-sedona-small.png" class="font" width="67" height="56" alt="Логотип Седоны">
+              </a>
             </li>
             <li>
               <a href="#">Карта штата</a>
@@ -32,8 +35,7 @@
     <main class="container">
       <div class="catalog-filters">
         <form action="https://echo.htmlacademy.ru" method="get" id="infrastructure">
-          <h2 class="catalog-filters-title">Инфраструктура:</h2>
-        
+          <h2 class="filters-title left">Инфраструктура:</h2>
           <label>
             <input type="checkbox" checked>Бассейн
           </label>
@@ -45,7 +47,7 @@
           </label>
         </form>
         <form action="https://echo.htmlacademy.ru" method="get" id="type">
-          <h2 class="catalog-filters-title">Тип жилья:</h2>
+          <h2 class="filters-title left">Тип жилья:</h2>
           <label>
             <input type="checkbox" checked >Гостиница
           </label>
@@ -56,11 +58,20 @@
             <input type="checkbox" checked>Апартаменты
           </label>
         </form>
-        <div class="price-control"> <!-- Или лучше формой? -->
-          <h2 class="catalog-filters-title">Стоимость в сутки (Р):</h2>
-          <input class="min-price" type="text" value="от 0">
-          <input class="max-price" type="text" value="до 3000">
-          <button class="btn" type="submit">Показать</button>
+        <div class="filter-range">
+          <div class="filter-range-title">Стоимость в сутки (р):</div>
+          <div class="price-controls">
+            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+            <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+          </div>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+          <button class="btn-transparent" type="submit">Показать</button>
         </div>
       </div>
       <div class="catalog-filters-result">

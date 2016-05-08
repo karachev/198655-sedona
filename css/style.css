@@ -40,8 +40,9 @@ li.result-title {
   font-weight: bold;
 }
 
-h2.catalog-filters-title {
+h2.filters-title{
   font-size: 16px;
+  line-height: 21px;
   color: #ffffff;
   font-weight: bold;
 }
@@ -90,7 +91,7 @@ h2.catalog-filters-title {
 
 .back {
   z-index: 1;
-  left: -25px
+  left: -11px
 }
 
 .font {
@@ -119,7 +120,7 @@ h2.catalog-filters-title {
   line-height: 26px;
 }
 
-.footer-hashtag p {
+.footer-hashtag p {  
   font-size: 21px;
   font-weight: bold;
   margin-top: 50px;
@@ -288,6 +289,7 @@ form p {
   float: right;
   width: 33.3%;
   text-align: center;
+  margin-top: 35px;
 }
 
 
@@ -437,7 +439,7 @@ form p {
 
 
 /*заливки*/
-.index-search input {
+.index-search > input {
   width: 300px;
   height: 30px;
   background-color: #f2f2f2;
@@ -452,19 +454,27 @@ form p {
 
 
 
-label {
-  display: inline-block;
-  height: 30px;
-  margin-top: 61px;
-  margin-left: -60px;
+.catalog-filters label {
+  display: block;
+  width: 130px;
+  margin-left: 76px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 section {
   
 }
 
-.btn {
-  background: url();
+.footer-copyright .btn {
+  display: block;
+  background: url(../img/logo-htmlacademy.png) no-repeat center;
+  width: 115px;
+  height: 40px;
+  font-size: 0px;
+  margin: -40px 185px;;
 }
 
 .social-btn {
@@ -486,4 +496,156 @@ section {
 
 .social-btn-youtube {
   background:#81b3d2 url(../img/logo-youtube.png) no-repeat center;
+}
+
+.footer-copyright p {
+  display: inline-block;
+  padding-right: 120px;
+}
+
+.left {
+  display: block;
+  margin: 27px 75px;
+}
+
+.catalog-filters input[type="checkbox"] {
+  opacity: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.filter-range {
+  width: 330px;
+  float: right;
+  margin: 27px 70px;; /* для демо */
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.filter-range-title {
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.price-controls {
+  position: relative;
+  
+  height: 36px;
+  margin-bottom: 20px;
+
+  font-size: 0;
+
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 2px;
+  height: 22px;
+
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 90px;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.btn-transparent {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-transparent:hover {
+  color: #000000;
+
+  background: #ffffff;
 }
