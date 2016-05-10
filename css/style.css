@@ -852,3 +852,11 @@ label {
 .icon-down-dir:hover {
   color: #81b3d2;
 }
+.max-price {
+  float: right;
+  text-align: center;
+}
+
+.min-price {
+  text-align: center;
+}
