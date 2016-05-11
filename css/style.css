@@ -854,6 +854,8 @@ label {
 .item-type {
   margin-right: 6px;
   margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .item-min-price, .item-type {
