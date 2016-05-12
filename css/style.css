@@ -11,9 +11,8 @@ body {
 html,
 body {
   width: 100%;
-  margin: 0;
+    margin: 0;
   padding: 0;
-  margin-top: -7px;
 }
 
 .container:after,
@@ -35,12 +34,10 @@ body {
 
 .main-navigation {
   width: 1200px;
-  min-height: 56px;
   margin: 0 auto;
 }
 
 .main-navigation ul {
-  margin-top: 14px;
   padding: 0;
   list-style: none;
   font-size: 0;
@@ -49,44 +46,26 @@ body {
 .main-navigation li {
   display: inline-block;
   width: 20%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: bold;
+  
   vertical-align: middle;
+  text-align: center;
 }
 
 
 .main-navigation a {
-  display: block;
-  width: 115px;
+  display: inline-block;
   margin: 0 auto;
   color: #000000;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 /*Подумать*/
-.main-navigation li:nth-child(3) {
+.main-navigation .logo {
   height: 55px
 }
-
-.main-navigation a img {
-  position: relative;
-}
-
-.back {
-  z-index: 1;
-  left: -11px
-}
-
-.font {
-  z-index: 2;
-  top: -77px;
-}
-
-/*Закончить подумать*/
-
 
 .index-main-information {
   width: 1200px;
@@ -190,7 +169,7 @@ body {
 
 .index-search {
   width: 1200px;
-  min-height: 884px;
+  min-height: 884px; /*НАДО УБРАТЬ*/
   background-image: url(../img/map.jpg);
   background-repeat: no-repeat;
   background-position: 0 230px;
@@ -251,11 +230,17 @@ form p {
 }
 
 .main-footer {
-  width: 1200px;
+  width: 100%;
   height: 120px;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(255, 255, 255, 0.9)
+  background: rgba(255, 255, 255, 0.9);
+
+}
+
+.footer-index {
+  position: absolute;
+  bottom: 260px;
 }
 
 .footer-hashtag {
@@ -281,26 +266,20 @@ form p {
 /* index.html index-main-information */
 .promo-logo {
   width: 1200px; 
-  min-height: 508px;
-  padding: 0px;
   background-image: url("../img/main-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center -60px;
   text-align: center;
+  padding-bottom: 73px;
 }
 
-.promo-logo-pic1 {
-  padding-top: 76px
+.promo-pic {
+  padding-top: 46px
 }
 
-.promo-logo-pic2 {
-  padding-top: 6px;
-}
-
-.promo-logo-pic3 {
-  padding-top: 46px;
-}
-
-.promo-logo-pic4 {
-  padding-top: 50px;
+.promo-pic-margin {
+  padding-top: 75px;
+  margin-bottom: -40px;
 }
 
 .item1 {
@@ -905,3 +884,13 @@ label {
   text-decoration: none;
 }
 
+
+.shadow {
+  position: relative;
+}
+
+.promo-logo::after {
+  background-image: url(../img/frame.png);
+  background-position: center;
+  
+}
