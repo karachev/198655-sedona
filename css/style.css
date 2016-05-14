@@ -64,12 +64,13 @@ body {
 
 /*Подумать*/
 .main-navigation .logo {
-  height: 55px
+  height: 55px;
+  position: relative;
+  z-index: 2;
 }
 
 .index-main-information {
   width: 1200px;
-  min-height: 1250px;
   padding-top: 60px;
   
   text-align: center;
@@ -77,12 +78,10 @@ body {
 
 .entry {
   width: 500px;
-  min-height: 140px;
   text-align: center;
   margin: 0 auto;
   
-  font-size: 21px;
-  line-height: 26px;
+  margin-bottom: 50px;
 }
 
 .footer-hashtag p {  
@@ -91,15 +90,16 @@ body {
   margin-top: 50px;
 }
 
-.description {
+.item-description-index {
   font-size: 21px;
   font-weight: bold;
   line-height: 21px;
   background: #81b3d2;
   color: #ffffff;
+  height: 256px;
 }
 
-.description h3 {
+item-description-index h3 {
   display: block;
   margin-top: 60px;
   width: 170px;
@@ -107,8 +107,8 @@ body {
   margin-right: auto;
 }
 
-.description p,
-.description .numbers{
+.item-description-index p,
+.item-description-index .numbers{
   width: 300px;
   margin: 20px auto;
   font-size: 14px;
@@ -116,29 +116,23 @@ body {
   line-height: 21px;
 }
 
-.features-item {
-  position: relative;
-}
+
 
 .features-logo {
-  position: absolute;
-  top: 64px;
-  left: 165px;
-  
+  margin-bottom: 25px; 
 }
 
-.features-name {
-  display: inline-block;
-  margin-top: 165px;
-  
+.features-name {  
   font-size: 21px;
   line-height: 21px;
+  margin-bottom: 20px;
 }
 
 .features-item p {
   display: block;
   width: 300px;
-  margin: 30px 50px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .item2 p {
@@ -150,15 +144,14 @@ body {
   background-color: #eeeeee;
 }
 
-.description-bottom .advantages {
+.item-description-index .advantages {
   display: block;
   width: 160px;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 
 .description-bottom span {
   display: block;
-  margin-top: -25px;
 }
 
 .description-bottom p {
@@ -271,6 +264,8 @@ form p {
   background-position: center -60px;
   text-align: center;
   padding-bottom: 73px;
+  position: relative;
+  z-index: 1;
 }
 
 .promo-pic {
@@ -282,35 +277,33 @@ form p {
   margin-bottom: -40px;
 }
 
-.item1 {
+.description-left {
   float: left;
-  width: 33.3%;
+  width: 400px;
   min-height: 256px;
 }
 
-.description-photo1 {
-  float: right;
+.description-photo {
   display: inline-block;
-  width: 66.6%;
+  width: 800px;
   height: 256px;
 }
 
-.description-photo2 {
-  float: left;
+.description-photo {
   width: 66.6%;
   height: 256px;
 }
 
 .features-item {
+  position: relative;
   float: left;
   width: 33.3%;
-  min-height: 330px;
+  padding: 62px 0; 
 }
 
-.item2 {
+.description-right {
   float: right;
-    width: 400px;
-  min-height: 256px;
+  width: 400px;
 }
 
 .item-bottom {
@@ -518,7 +511,7 @@ form p {
 
 .entry p {
   font-size: 14px;
-  font-weight: 21px;
+  line-height: 21px;
 }
 
 .index-search input[type="text"] {
@@ -771,10 +764,7 @@ label {
   margin: 0 auto;
 }
 
-.item {
-  padding: 30px 0;
-  border-bottom: 1px solid #e5e5e5;
-}
+
 
 .wrapper {
   width: 1056px;
@@ -802,8 +792,8 @@ label {
 }
 
 .item-rating {
-    float: right;
-    width: 120px;
+  float: right;
+  width: 120px;
 }
 
 .item-star {
@@ -890,7 +880,36 @@ label {
 }
 
 .promo-logo::after {
-  background-image: url(../img/frame.png);
-  background-position: center;
+    content: url(../img/frame.png);
+    position: absolute;
+    bottom: -6px;
+    left: 0px;
   
+}
+
+.entry b {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.photo-right {
+  float: right;
+}
+
+.photo-left {
+  float: left;
+}
+
+.features {
+  padding: 0px 0;
+}
+
+.descriptions-advantages {
+  margin-top: 50px;
+  display: block;
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 21px;
+  line-height: 21px;
 }
