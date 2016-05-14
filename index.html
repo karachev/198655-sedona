@@ -27,7 +27,7 @@
                 <a href="#">Карта штата</a>
               </li>
               <li>
-                <a href="catalog.html">Гостиница</a>
+                <a href="catalog.html">Гостиницы</a>
               </li>
             </ul>
           </nav>
@@ -44,7 +44,7 @@
           <div class="promo-pic">
             <img src="img/welcome-logo3.png">
           </div>
-          <div class="promo-pic">
+          <div class="promo-pic logo-margin">
             <img src="img/welcome-logo4.png">
           </div>
         </div>
@@ -121,41 +121,56 @@
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <form class="search-form"  action="https://echo.htmlacademy.ru" method="get">
             <h3>Поиск гостиницы в Седоне</h3>
-            <div class="shadow-form">
-              <label for="date-start">
-                <p class="date">Дата заезда</p>
-              </label>
-              <input type="text" value="24 апреля 2016" id="date-start">
-              <label for="date-end">
-                <p>Дата выезда</p>
-              </label>
-              <input type="text" value="4 июля 2016" id="date-end">
-              <label for="adult">
-                <p class="small-box-adult">Взрослые</p>
-              </label>
-              <input class="adult" type="text" value="2" id="adult">
-              <label for="children">
-                <p class="small-box-children">Дети </p>
-              </label>
-              <input class="children" type="text" value="0" id="children">
-              <button class="button" type="submit">Найти</button>
+            <div class="modal-form shadow-form">
+              <div class="date-arrival clearfix">
+                <label for="date-start">Дата заезда:</label>
+                <div class="date">
+                  <input id="date-start" type="text" value="24 апреля 2016" required>
+                </div>
+              </div>
+              <div class="date-departure clearfix">
+                <label for="date-end">Дата выезда:</label>
+                <div class="date">
+                  <input id="date-end" type="text" value="4 июля 2016" required> 
+                </div>
+              </div>
+              <div class="person-counter">
+                <label class="adult" for="counter-adult">Взрослые:</label>
+                <div class="guest-range clearfix">
+                  <button type="button" value="-"><span class="icon-minus"></span></button>
+                  <input id="counter-adult" type="text" value="2" required>
+                  <button type="button" value="+"><span class="icon-plus"></span></button>
+                </div>
+              </div>
+              <div class="person-counter">
+                <label class="kid" for="counter-kid">Дети:</label>
+                <div class="guest-range clearfix">
+                  <button type="button" name="minus" value=""><span class="icon-minus"></span></button>
+                  <input id="counter-kid" type="text" value="0" required>
+                  <button type="button" name="plus" value="+"><span class="icon-plus"></span></button>
+                </div>
+              </div>
+              <input class="btn-search" id="search" type="submit" value="Найти">
+              
             </div>
           </form>
         </div>
       </main>
       <footer class="main-footer footer-index">
-        <section class="footer-hashtag">
-          <p>#visitsedona</p>
-        </section>
-        <section class="footer-social">
-          <a class="social-btn social-btn-twitter" href="#">Twitter</a>
-          <a class="social-btn social-btn-facebook" href="#">Facebook</a>
-          <a class="social-btn social-btn-youtube" href="#">YouTube</a>
-        </section>
-        <section class="footer-copyright">
-          <p>Website by</p>
-          <a class="btn" href="https://htmlacademy.ru/">HTML Academy</a>
+        <div class="container">
+          <section class="footer-hashtag">
+            <p>#visitsedona</p>
           </section>
+          <section class="footer-social">
+            <a class="social-btn social-btn-twitter" href="#">Twitter</a>
+            <a class="social-btn social-btn-facebook" href="#">Facebook</a>
+            <a class="social-btn social-btn-youtube" href="#">YouTube</a>
+          </section>
+          <section class="footer-copyright">
+            <p>Website by</p>
+            <a class="btn" href="https://htmlacademy.ru/">HTML Academy</a>
+          </section>
+        </div>
       </footer>
     </div>
   </body>
