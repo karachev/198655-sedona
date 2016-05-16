@@ -154,6 +154,7 @@ item-description-index h3 {
 
 .description-bottom span {
   display: block;
+  box-sizing: border-box;
 }
 
 .description-bottom p {
@@ -1007,6 +1008,7 @@ label {
     color: #a9a9a9;
     background-color: #f2f2f2;
     border: none;
+  
 }
 
 
@@ -1061,11 +1063,15 @@ label {
 }
 
 .icon-minus:before {
-  content: "\e802";
+  content: "-";
+  font-size: 40px;
+  text-align: center;
 }
 
 .icon-plus:before {
-  content: "\e801";
+  content: "+";
+  font-size: 40px;
+  text-align: center;
 }
 
 .btn-search:hover {
@@ -1162,3 +1168,5 @@ label {
   display: block;
   box-sizing: border-box;
 }
+
+
