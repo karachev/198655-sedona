@@ -924,6 +924,7 @@ label {
   background-color: #81b3d2;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .date-arrival {
@@ -1061,4 +1062,12 @@ label {
 
 footer {
   position: relative;
+}
+
+.footer-hashtag a {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 18px 0;
+  color: #000000;
+  text-decoration: none;
 }
