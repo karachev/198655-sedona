@@ -44,7 +44,6 @@ body {
 .main-navigation li {
   display: inline-block;
   width: 20%;
-  
   vertical-align: middle;
   text-align: center;
 }
@@ -60,7 +59,6 @@ body {
   line-height: 26px;
 }
 
-/*Подумать*/
 .main-navigation .logo {
   height: 55px;
   position: relative;
@@ -69,8 +67,7 @@ body {
 
 .index-main-information {
   width: 1200px;
-  padding-top: 54px;
-  
+  padding-top: 54px;  
   text-align: center;
 }
 
@@ -78,7 +75,6 @@ body {
   width: 500px;
   text-align: center;
   margin: 0px auto;
-  
   margin-bottom: 55px;
 }
 
@@ -115,8 +111,6 @@ item-description-index h3 {
   line-height: 21px;
 }
 
-
-
 .features-logo {
   margin-bottom: 25px; 
 }
@@ -138,8 +132,6 @@ item-description-index h3 {
   display: block;
   width: 320px;
 }
-
-
 
 .item-description-index .advantages {
   display: block;
@@ -177,7 +169,6 @@ item-description-index h3 {
 }
 
 .index-search h3 {
-  
   text-align: center;
   margin: 0;
   background: #766357;
@@ -200,13 +191,10 @@ item-description-index h3 {
   margin: 48px auto;
   text-align: center;
   background: #ffffff;
-  
 }
 
 form p {
-  
   margin: 0;
-  
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
@@ -242,8 +230,6 @@ form p {
   text-align: center;
 }
 
-
-/* index.html index-main-information */
 .promo-logo {
   width: 1200px; 
   background-image: url("../img/main-photo.jpg");
@@ -270,10 +256,6 @@ form p {
   min-height: 256px;
 }
 
-
-
-
-
 .features-item {
   position: relative;
   float: left;
@@ -286,10 +268,6 @@ form p {
   width: 400px;
 }
 
-.item-bottom {
-  
-}
-
 .description-bottom {
   float: left;
   width: 400px;
@@ -297,14 +275,9 @@ form p {
   background-color: #eeeeee;
 }
 
-/*catalog.html*/
-
 .catalog-filters-result {
   width: 1200px;
 }
-
-/*заливки*/
-
 
 .footer-copyright .btn {
   display: inline-block;
@@ -322,11 +295,9 @@ form p {
   font-size: 0px;
 }
 
-
 .social-btn-twitter { 
   background: #81b3d2 url(../img/logo-twitter.png) no-repeat center;
 }
-
 
 .social-btn-facebook {
   background:#81b3d2 url(../img/logo-facebook.png) no-repeat center;
@@ -344,14 +315,13 @@ form p {
 .filter-range {
   width: 330px;
   float: right;
-  margin: 27px 0px;; /* для демо */
+  margin: 27px 0px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .filter-range-title {
   margin-bottom: 9px;
-
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -364,7 +334,6 @@ form p {
   margin-bottom: 20px;
   width: 320px;
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -374,21 +343,17 @@ form p {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
 
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 38px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
@@ -400,11 +365,8 @@ form p {
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
-  font: inherit;
-  
-  
+  font: inherit;  
   background: none;
   border: none;
   outline: none;
@@ -412,30 +374,25 @@ form p {
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -459,12 +416,10 @@ form p {
   display: block;
   margin: 0 auto;
   padding: 6px 35px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -474,7 +429,6 @@ form p {
 
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
 
@@ -487,20 +441,6 @@ form p {
 .date a {
   background: url("../img/calendar.png");
 }
-
-
-
-
-.numbers-grey::after {
-  
-}
-
-.numbers-grey {
-
-}
-
-
-
 
 .index-search .adult {
   width: 74px;
@@ -578,7 +518,6 @@ label {
 
 .check-icon:checked+label:before {
   display: inline-block;
-  margin-right: 16px;
   border-radius: 2px;
   color: #fff;
   content: "\2611";
@@ -590,19 +529,6 @@ label {
 [hidden], template {
   display: none;
 }
-
-.check-icon+label:before {
-  display: inline-block;
-  margin-right: 20px;
-  border-radius: 2px;
-  color: #fff;
-  content: "\2610";
-  vertical-align: top;
-  font-size: 26px;
-  line-height: 20px;
-}
-
-/*СОРТИРОВКА*/
 
 .filter-value {
   padding: 30px 0 29px;
@@ -627,8 +553,6 @@ label {
   width: 430px;
   padding: 5px 0 0;
 }
-
-
 
 .item-header:hover, .sort-item-active {
   color: #81b3d2;
@@ -666,15 +590,12 @@ label {
 .icon-up-dir::before {
   content: "\25b2";
   font-size: 13px;
-  
 }
 
 .icon-down-dir::before {
   content: "\25bc";
   font-size: 13px;
-
 }
-
 
 .max-price {
   float: right;
@@ -701,7 +622,6 @@ label {
 .item-description {
   float: left;
   width: 760px;
-    
 }
 
 .item-description h2 {
@@ -763,9 +683,11 @@ label {
   float: left;
   padding: 4px 17px;
 }
+
 .item-btn-blue {
   margin-right: 7px;
 }
+
 .btn-blue {
   background: #81b3d2;
   color: #fff;
@@ -777,7 +699,6 @@ label {
   color: #fff;
   text-decoration: none;
 }
-
 
 .shadow {
   position: relative;
@@ -791,13 +712,11 @@ label {
   position: absolute;
   bottom: -7px;
   left: 0px;
-  
-  
 }
 
 .entry b {
-    font-size: 21px;
-    line-height: 26px;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .photo-right {
@@ -809,7 +728,6 @@ label {
   width: 66.6%;
   height: 256px;
 }
-
 
 .descriptions-advantages {
   margin-top: 50px;
@@ -832,8 +750,6 @@ label {
   font-size: 22px;
   padding-left: 5px;
 }
-
-
 
 .item {
   margin-top: 28px;
@@ -902,7 +818,6 @@ label {
   color: #cacaca;
 }
 
-
 .footer-copyright .btn:hover {
   background: url(../img/logo-htmlacademy-hover.png) no-repeat center;
 }
@@ -931,11 +846,8 @@ label {
   margin: 0 0 30px;
   text-transform: uppercase;
   border: none;
-
   background: #f2f2f2 url(../img/calendar.png) no-repeat 97% 50%;
 }
-
-
 
 .date-departure label {
   float: left;
@@ -958,7 +870,6 @@ label {
   margin-top: 5px;
 }
 
-
 .guest-range {
   float: right;
   width: 114px;
@@ -971,18 +882,16 @@ label {
   color: #a9a9a9;
   background-color: #f2f2f2;
   border: none;
-  
 }
-
 
 .guest-range input {
-    float: left;
-    width: 36px;
-    height: 36px;
-    text-align: center;
-    background-color: #f2f2f2;
-    border: none;
-}
+  float: left;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: none;
+} 
 
 .person-counter:nth-child(4) {
     margin-right: 0;
@@ -1019,7 +928,6 @@ label {
   content: "-";
   font-size: 30px;
   font-weight: bold;
-  
   cursor: pointer;
 }
 
@@ -1027,7 +935,6 @@ label {
   content: "+";
   font-size: 33px;
   font-weight: bold;
-  
   cursor: pointer;
 }
 
@@ -1038,8 +945,6 @@ label {
 .social-btn:active {
   background: #5496bd;
 }
-
-
 
 .social-btn-twitter:hover {
   background: #669ec0 url(../img/logo-twitter.png) no-repeat center;
@@ -1065,13 +970,6 @@ label {
   background: #5496bd url(../img/logo-youtube-down.png) no-repeat center;
 }
 
-.calendar-in {
-  background: url(../img/calendar.png) no-repeat;
-  width: 30px;
-  height: 40px;
-  float: right;
-}
-
 .logo-margin {
   display: inline-block;
   margin-top: 2px;
@@ -1080,8 +978,6 @@ label {
 .description-right p {
   width: 305px;
 }
-
-
 
 .search-form input[type="text"] {
   font-weight: bold;
@@ -1093,11 +989,12 @@ label {
 }
 
 .date input:hover {
-  background: #f2f2f2 url(../img/calendar-hover.png) no-repeat 97% 50%;
+  background: #ebebeb url(../img/calendar-hover.png) no-repeat 97% 50%;
 }
 
 .date input:active {
-  background: #f2f2f2 url(../img/calendar-down.png) no-repeat 97% 50%;
+  background: #ffffff url(../img/calendar-down.png) no-repeat 97% 50%;
+  border: 2px solid #e5e5e5;
 }
 
 .icon-plus:hover {
@@ -1118,4 +1015,15 @@ label {
 
 .filter form {
   padding-bottom: 10px;
+}
+
+.check-icon+label:before {
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 2px;
+  color: #fff;
+  content: "\2610";
+  vertical-align: top;
+  font-size: 26px;
+  line-height: 20px;
 }
