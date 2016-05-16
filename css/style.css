@@ -1,7 +1,6 @@
 body {
   font-size: 14px;
   line-height: 21px;
-  font-weight: regular;
   font-family: 'PT Sans', sans-serif;
   color: #333333;
   text-transform: uppercase;
@@ -70,7 +69,7 @@ body {
 
 .index-main-information {
   width: 1200px;
-  padding-top: 60px;
+  padding-top: 54px;
   
   text-align: center;
 }
@@ -78,7 +77,7 @@ body {
 .entry {
   width: 500px;
   text-align: center;
-  margin: -6px auto;
+  margin: 0px auto;
   
   margin-bottom: 55px;
 }
@@ -96,7 +95,7 @@ body {
   background: #81b3d2;
   color: #ffffff;
   height: 256px;
-  margin-left: 0.8px;
+  margin-left: 0px;
 }
 
 item-description-index h3 {
@@ -140,9 +139,7 @@ item-description-index h3 {
   width: 320px;
 }
 
-.description-bottom {
-  background-color: #eeeeee;
-}
+
 
 .item-description-index .advantages {
   display: block;
@@ -164,8 +161,7 @@ item-description-index h3 {
 }
 
 .index-search {
-  width: 1200px;
-  min-height: 884px; /*НАДО УБРАТЬ*/
+  min-height: 884px;
   background-image: url(../img/map.jpg);
   background-repeat: no-repeat;
   background-position: 0 230px;
@@ -183,10 +179,9 @@ item-description-index h3 {
 .index-search h3 {
   
   text-align: center;
-  padding: 30px 10px;
   margin: 0;
   background: #766357;
-  
+  padding: 28px;
   color: #ffffff;
   font-size: 21px;
   line-height: 26px;
@@ -197,12 +192,12 @@ item-description-index h3 {
   width: 550px;
   margin: 30px auto;
   text-align: center;
+  line-height: 24px;
 }
 
 .search-form {
   width: 568px;
-  height: 482px;
-  margin: 53px auto;
+  margin: 48px auto;
   text-align: center;
   background: #ffffff;
   
@@ -275,23 +270,15 @@ form p {
   min-height: 256px;
 }
 
-.description-photo {
-  display: inline-block;
-  width: 800px;
-  height: 256px;
-}
 
-.description-photo {
-  width: 66.6%;
-  height: 256px;
-}
+
+
 
 .features-item {
   position: relative;
   float: left;
   width: 33.3%;
-  padding: 62px 0; 
-  height: 206px;
+  padding: 62px 0 77px; 
 }
 
 .description-right {
@@ -300,14 +287,14 @@ form p {
 }
 
 .item-bottom {
-  width: 1200px;
-  min-height: 256px;
+  
 }
 
 .description-bottom {
   float: left;
   width: 400px;
-  min-height: 256px;
+  padding-bottom: 39px;
+  background-color: #eeeeee;
 }
 
 /*catalog.html*/
@@ -357,7 +344,7 @@ form p {
 .filter-range {
   width: 330px;
   float: right;
-  margin: 27px 70px;; /* для демо */
+  margin: 27px 0px;; /* для демо */
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -372,10 +359,10 @@ form p {
 
 .price-controls {
   position: relative;
-  
-  height: 36px;
+  margin-left: 10px;
+  height: 33px;
   margin-bottom: 20px;
-
+  width: 320px;
   font-size: 0;
 
   border: 2px solid #ffffff;
@@ -416,7 +403,8 @@ form p {
 
   color: inherit;
   font: inherit;
-
+  
+  
   background: none;
   border: none;
   outline: none;
@@ -500,21 +488,8 @@ form p {
   background: url("../img/calendar.png");
 }
 
-.numbers::after {
-  content: "";
-  display: block;
-  position: relative;
-  top: -11px;
-  z-index: 1;
-  border-bottom: 1px solid #ffffff;
-  width: 50px;
-  margin: 0 auto;
-}
-.numbers {
-  position: relative;
-  z-index: 2;
-  background: #81b3d2;
-}
+
+
 
 .numbers-grey::after {
   
@@ -528,10 +503,9 @@ form p {
 
 
 .index-search .adult {
-  width: 114px;
-  margin-left: 35px;
-  margin-right: 20px;
+  width: 74px;
   text-align: center;
+  margin-right: 40px;
 }
 
 .index-search .children {
@@ -577,13 +551,14 @@ form p {
   color: #fff;
   font-size: 14px;
   line-height: 21px;
+  margin: 10px 0px;
 }
 .filter-infrastructure {
   margin-right: 80px;
 }
 
 .filter-list {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   list-style: none;
 }
@@ -653,33 +628,28 @@ label {
   padding: 5px 0 0;
 }
 
-.sort-hotels-item, .sort-hotels-title {
-  margin-right: 37px;
-  font-size: 12px;
-  line-height: 18px;
-}
+
 
 .item-header:hover, .sort-item-active {
   color: #81b3d2;
 }
 
 .sort-hotels-item {
-  margin-right: 29px;
   border-bottom: 1px dotted #81b3d2;
   color: #b2b2b2;
   text-decoration: none;
 }
 
 .sort-hotels-item, .sort-hotels-title {
-  margin-right: 37px;
+  margin-right: 33px;
   font-size: 12px;
   line-height: 18px;
 }
 
 .ask-desk-icons {
   float: right;
-  width: 42px;
-  padding: 5px 2px 0 0;
+  width: 40px;
+  padding: 3px 0px 0 0px;
   font-size: 0;
 }
 
@@ -706,15 +676,12 @@ label {
 }
 
 
-
-
 .max-price {
   float: right;
-  text-align: center;
 }
 
 .min-price {
-  text-align: center;
+  margin: 0 70px;
 }
 
 .result-item {
@@ -752,7 +719,7 @@ label {
 .item-star {
   width: 120px;
   margin-top: -1px;
-  font-size: 10;
+  font-size: 10px;
 }
 
 .item-header {
@@ -785,8 +752,8 @@ label {
 
 .item-total-rating {
   float: right;
-  margin-top: 70px;
-  padding: 5px 10px;
+  margin-top: 43px;
+  padding: 5px 13px;
   background: #f2f2f2;
   color: #8b8b8b;
   text-align: center;
@@ -794,10 +761,10 @@ label {
 
 .item-btn-blue, .item-btn-brown {
   float: left;
-  padding: 3px 16px;
+  padding: 4px 17px;
 }
 .item-btn-blue {
-  margin-right: 6px;
+  margin-right: 7px;
 }
 .btn-blue {
   background: #81b3d2;
@@ -814,17 +781,16 @@ label {
 
 .shadow {
   position: relative;
-  width: 1280px;
+  width: 1200px;
   margin: 0 auto;
-      box-shadow: 0 0 30px -3px rgba(0,1,1,.2);
+  box-shadow: 0 0 30px -3px rgba(0,1,1,.2);
 }
 
 .promo-logo::after {
-    content: url(../img/frame-c5.png);
-   
+  content: url(../img/frame-c5.png); 
   position: absolute;
-    bottom: -6px;
-    left: 0px;
+  bottom: -7px;
+  left: 0px;
   
   
 }
@@ -840,11 +806,10 @@ label {
 
 .photo-left {
   float: left;
+  width: 66.6%;
+  height: 256px;
 }
 
-.features {
-  padding: 0px 0;
-}
 
 .descriptions-advantages {
   margin-top: 50px;
@@ -857,25 +822,26 @@ label {
 }
 
 .shadow-form {
-  height: 71%;
   box-shadow: 0px 0px 60px 0px grey; 
+  background-color: white;
 }
 
 .icon-star::before {
   content: "\2605";
   color: #81b3d2;
   font-size: 22px;
+  padding-left: 5px;
 }
 
 
 
 .item {
-  margin-top: 20px;
+  margin-top: 28px;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .filter-list li {
-  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 .sort-hotels-item:hover {
@@ -946,68 +912,65 @@ label {
 }
 
 .modal-form {
-  padding-top: 55px;
+  padding: 55px 54px;
 }
 
 .date-arrival label {
   float: left;
-    margin: 5px 0 36px 2px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 26px;
+  margin: 6px 0 0px 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .date input {
   float: right;
-    width: 332px;
-    height: 36px;
-    padding-left: 12px;
-    margin: 0 0 30px;
-    text-transform: uppercase;
-    background-color: #f2f2f2;
-    border: none;
+  width: 332px;
+  height: 36px;
+  padding-left: 12px;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  border: none;
 
+  background: #f2f2f2 url(../img/calendar.png) no-repeat 97% 50%;
 }
 
 
 
 .date-departure label {
   float: left;
-    margin: 6px 0 0px 2px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 26px;
+  margin: 6px 0 0px 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .person-counter {
   float: left;
-    margin-right: 51px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 26px;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
 }
 
 .person-counter label {
-    float: left;
-    margin-top: 5px;
-}
-.adult {
-    margin-right: 15px;
+  float: left;
+  margin-top: 5px;
 }
 
+
 .guest-range {
-    float: right;
-    width: 114px;
+  float: right;
+  width: 114px;
 }
 
 .person-counter button {
-    float: left;
-    width: 38px;
-    height: 38px;
-    color: #a9a9a9;
-    background-color: #f2f2f2;
-    border: none;
+  float: left;
+  width: 38px;
+  height: 38px;
+  color: #a9a9a9;
+  background-color: #f2f2f2;
+  border: none;
   
 }
 
@@ -1021,15 +984,8 @@ label {
     border: none;
 }
 
-
 .person-counter:nth-child(4) {
     margin-right: 0;
-}
-
-
-.person-counter label {
-    float: left;
-    margin-top: 5px;
 }
 
 .btn-search {
@@ -1043,35 +999,36 @@ label {
   color: #fff;
   background-color: #81b3d2;
   border: none;
+  cursor: pointer;
 }
 
 .date-arrival {
-  margin: 0 55px;
-  height: 38px;
-  font-size: 20px;
   position: relative;
 }
 
 .date-departure {
-  margin: 30px 55px;
-  height: 38px;
   position: relative;
 }
 
 .kid {
-  margin-right: 30px;
+  margin-left: 52px;
+  margin-right: 27px;
 }
 
 .icon-minus:before {
   content: "-";
-  font-size: 40px;
-  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+  cursor: pointer;
 }
 
 .icon-plus:before {
   content: "+";
-  font-size: 40px;
-  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  
+  cursor: pointer;
 }
 
 .btn-search:hover {
@@ -1131,42 +1088,34 @@ label {
   font-size: 14px;
 }
 
-.calendar {
-    position: absolute;
-    right: 0px;
-    width: 38px;
-    height: 38px;
-    font-size: 21px;
-    line-height: 38px;
-    color: #000;
-    background: url(../img/calendar.png) no-repeat center;
+.items .wrapper {
+  padding-bottom: 30px;
 }
 
-.calendar:hover {
-    position: absolute;
-    right: 0px;
-    width: 38px;
-    height: 38px;
-    font-size: 21px;
-    line-height: 38px;
-    color: #000;
-    background: url(../img/calendar-hover.png) no-repeat center;
+.date input:hover {
+  background: #f2f2f2 url(../img/calendar-hover.png) no-repeat 97% 50%;
 }
 
-.calendar:active {
-    position: absolute;
-    right: 0px;
-    width: 38px;
-    height: 38px;
-    font-size: 21px;
-    line-height: 38px;
-    color: #000;
-    background: url(../img/calendar-down.png) no-repeat center;
+.date input:active {
+  background: #f2f2f2 url(../img/calendar-down.png) no-repeat 97% 50%;
 }
 
-.calendar a {
-  display: block;
-  box-sizing: border-box;
+.icon-plus:hover {
+  color: #000000;
 }
 
+.icon-plus:active {
+  color: #81b3d2;
+}
 
+.icon-minus:hover {
+  color: #000000;
+}
+
+.icon-minus:active {
+  color: #81b3d2;
+}
+
+.filter form {
+  padding-bottom: 10px;
+}
