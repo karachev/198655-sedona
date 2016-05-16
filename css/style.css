@@ -67,7 +67,7 @@ body {
 
 .index-main-information {
   width: 1200px;
-  padding-top: 54px;  
+  padding-top: 50px;  
   text-align: center;
 }
 
@@ -153,14 +153,14 @@ item-description-index h3 {
 }
 
 .index-search {
-  min-height: 884px;
+  min-height: 824px;
   background-image: url(../img/map.jpg);
   background-repeat: no-repeat;
   background-position: 0 230px;
 }
 
 .index-search .title-booking{
-  margin-top: 58px;
+  margin-top: 52px;
   text-align: center;
   font-size: 30px;
   line-height: 24px;
@@ -209,7 +209,7 @@ form p {
 
 .footer-index {
   position: absolute;
-  bottom: 110px;
+  bottom: 0px;
 }
 
 .footer-hashtag {
@@ -260,7 +260,7 @@ form p {
   position: relative;
   float: left;
   width: 33.3%;
-  padding: 62px 0 77px; 
+  padding: 52px 0 77px; 
 }
 
 .description-right {
@@ -271,7 +271,7 @@ form p {
 .description-bottom {
   float: left;
   width: 400px;
-  padding-bottom: 39px;
+  padding-bottom: 35px;
   background-color: #eeeeee;
 }
 
@@ -1057,4 +1057,8 @@ label {
 .date input:focus {
   background: #ffffff url(../img/calendar-down.png) no-repeat 97% 50%;
   border: 2px solid #e5e5e5;
+}
+
+footer {
+  position: relative;
 }
