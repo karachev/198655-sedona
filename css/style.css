@@ -252,7 +252,7 @@ form p {
 
 .description-left {
   float: left;
-  width: 400px;
+  width: 33.3%;
   min-height: 256px;
 }
 
@@ -265,7 +265,7 @@ form p {
 
 .description-right {
   float: right;
-  width: 400px;
+  width: 33.3%;
 }
 
 .description-bottom {
@@ -329,7 +329,6 @@ form p {
 
 .price-controls {
   position: relative;
-  margin-left: 10px;
   height: 33px;
   margin-bottom: 20px;
   width: 320px;
@@ -520,6 +519,16 @@ label {
   display: inline-block;
   border-radius: 2px;
   color: #fff;
+  content: "\2611";
+  vertical-align: top;
+  font-size: 26px;
+  line-height: 20px;
+}
+
+.check-icon:checked+.filter-label-disabled:before {
+  display: inline-block;
+  border-radius: 2px;
+  color: #6a6a6a;
   content: "\2611";
   vertical-align: top;
   font-size: 26px;
@@ -721,11 +730,12 @@ label {
 
 .photo-right {
   float: right;
+  width: 66.7%;
 }
 
 .photo-left {
   float: left;
-  width: 66.6%;
+  width: 66.7%;
   height: 256px;
 }
 
@@ -840,13 +850,15 @@ label {
 
 .date input {
   float: right;
-  width: 332px;
-  height: 36px;
+  width: 328px;
+  height: 32px;
   padding-left: 12px;
   margin: 0 0 30px;
   text-transform: uppercase;
   border: none;
   background: #f2f2f2 url(../img/calendar.png) no-repeat 97% 50%;
+  outline: none;
+  border: 2px solid transparent;
 }
 
 .date-departure label {
@@ -873,6 +885,7 @@ label {
 .guest-range {
   float: right;
   width: 114px;
+  outline: none;
 }
 
 .person-counter button {
@@ -882,6 +895,8 @@ label {
   color: #a9a9a9;
   background-color: #f2f2f2;
   border: none;
+  padding: 0;
+  outline: none;
 }
 
 .guest-range input {
@@ -926,16 +941,16 @@ label {
 
 .icon-minus:before {
   content: "-";
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 23px;
   cursor: pointer;
+  line-height: 38px;
 }
 
 .icon-plus:before {
   content: "+";
-  font-size: 33px;
-  font-weight: bold;
+  font-size: 23px;
   cursor: pointer;
+  line-height: 38px;
 }
 
 .btn-search:hover {
@@ -1021,9 +1036,25 @@ label {
   display: inline-block;
   margin-right: 20px;
   border-radius: 2px;
-  color: #fff;
+  color: ;
   content: "\2610";
   vertical-align: top;
   font-size: 26px;
   line-height: 20px;
+}
+.filter-label-disabled {
+  color: #6a6a6a;
+}
+
+.check-icon-disabled:active {
+  color: #6e6e6e;
+}
+
+.guest-range input {
+  outline: none;
+}
+
+.date input:focus {
+  background: #ffffff url(../img/calendar-down.png) no-repeat 97% 50%;
+  border: 2px solid #e5e5e5;
 }
