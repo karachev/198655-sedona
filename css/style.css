@@ -216,6 +216,7 @@ form p {
   float: left;
   width: 33.3%;
   text-align: center;
+  line-height: 49px;
 }
 
 .footer-social {
@@ -309,7 +310,7 @@ form p {
 
 .footer-copyright p {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .filter-range {
@@ -329,12 +330,13 @@ form p {
 
 .price-controls {
   position: relative;
-  height: 33px;
   margin-bottom: 20px;
   width: 320px;
   font-size: 0;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  padding: 5px 0px;
+  margin-left: 11px;
 }
 
 .price-controls::after {
@@ -351,7 +353,6 @@ form p {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
   vertical-align: top;
   cursor: pointer;
 }
@@ -374,6 +375,7 @@ form p {
 .range-controls {
   position: relative;
   margin-bottom: 32px;
+  margin-left: 11px;
 }
 
 .range-controls .scale {
@@ -481,7 +483,7 @@ form p {
 }
 
 .filter {
-  background: #406c90 url(../img/photo-sedona3.jpg) no-repeat;
+  background: #406c90 url(../img/photo-sedona3.jpg) no-repeat 0px -55px;
 }
 
 .filter-accommodation-type, .filter-infrastructure {
@@ -540,7 +542,7 @@ label {
 }
 
 .filter-value {
-  padding: 30px 0 29px;
+  padding: 31px 0 27px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -870,11 +872,18 @@ label {
 }
 
 .person-counter {
-  float: left;
   font-weight: 700;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.person-counter-left {
+  float: left;
+}
+
+.person-counter-right {
+  float: right;
 }
 
 .person-counter label {
@@ -935,10 +944,11 @@ label {
   position: relative;
 }
 
+
 .kid {
-  margin-left: 52px;
   margin-right: 27px;
 }
+
 
 .icon-minus:before {
   content: "-";
