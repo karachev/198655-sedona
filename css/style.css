@@ -1093,3 +1093,7 @@ footer {
 .description-right p {
   margin-bottom: 48px;
 }
+
+.item-bottom {
+  background: #eeeeee;
+}
