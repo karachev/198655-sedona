@@ -155,10 +155,6 @@ item-description-index h3 {
 }
 
 .index-search {
-  min-height: 824px;
-  background-image: url(../img/map.jpg);
-  background-repeat: no-repeat;
-  background-position: 0 230px;
 }
 
 .index-search .title-booking{
@@ -190,7 +186,8 @@ item-description-index h3 {
 
 .search-form {
   width: 568px;
-  margin: 48px auto;
+  margin: 0 auto;
+  padding-top: 18px;
   text-align: center;
   background: #ffffff;
 }
@@ -843,7 +840,10 @@ label {
 }
 
 .modal-form {
-  padding: 55px 54px;
+  padding: 60px 54px;
+  position: absolute;
+  width: 461px;
+  display: none;
 }
 
 .date-arrival label {
@@ -1096,4 +1096,12 @@ footer {
 
 .item-bottom {
   background: #eeeeee;
+}
+
+.modal-content-show {
+  display: block;
+  animation: bounce .8s;
+}
+
+.map {
 }
