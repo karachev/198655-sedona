@@ -136,7 +136,7 @@ item-description-index h3 {
 
 .item-description-index .advantages {
   display: block;
-  width: 151px;
+  width: 164px;
   margin: 55px auto 25px auto;
   font-size: 21px;
   line-height: 21px;
@@ -175,6 +175,8 @@ item-description-index h3 {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
+  
+  cursor: pointer;
 }
 
 .index-search>p {
@@ -444,9 +446,9 @@ form p {
 }
 
 .index-search .adult {
-  width: 74px;
-  text-align: center;
-  margin-right: 40px;
+  width: 84px;
+  text-align: left;
+  margin-right: 34px;
   word-break: break-all;
 }
 
@@ -950,6 +952,8 @@ label {
 
 
 .kid {
+  width: 58px;
+  text-align: right;
   margin-right: 27px;
   word-break: break-all;
 }
