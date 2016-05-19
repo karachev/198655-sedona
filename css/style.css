@@ -446,9 +446,9 @@ form p {
 }
 
 .index-search .adult {
-  width: 84px;
+  width: auto;
   text-align: left;
-  margin-right: 34px;
+  margin-right: 44px;
   word-break: break-all;
 }
 
@@ -952,7 +952,7 @@ label {
 
 
 .kid {
-  width: 58px;
+  width: auto;
   text-align: right;
   margin-right: 27px;
   word-break: break-all;
