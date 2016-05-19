@@ -90,8 +90,9 @@ body {
   line-height: 21px;
   background: #81b3d2;
   color: #ffffff;
-  height: 256px;
   margin-left: 0px;
+  height: auto;
+  
 }
 
 item-description-index h3 {
@@ -139,6 +140,7 @@ item-description-index h3 {
   margin: 55px auto 25px auto;
   font-size: 21px;
   line-height: 21px;
+  
 }
 
 .description-bottom span {
@@ -153,10 +155,6 @@ item-description-index h3 {
 }
 
 .index-search {
-  min-height: 824px;
-  background-image: url(../img/map.jpg);
-  background-repeat: no-repeat;
-  background-position: 0 230px;
 }
 
 .index-search .title-booking{
@@ -188,7 +186,8 @@ item-description-index h3 {
 
 .search-form {
   width: 568px;
-  margin: 48px auto;
+  margin: 0 auto;
+  padding-top: 18px;
   text-align: center;
   background: #ffffff;
 }
@@ -216,6 +215,7 @@ form p {
   float: left;
   width: 33.3%;
   text-align: center;
+  line-height: 49px;
 }
 
 .footer-social {
@@ -266,6 +266,7 @@ form p {
 .description-right {
   float: right;
   width: 33.3%;
+
 }
 
 .description-bottom {
@@ -309,7 +310,7 @@ form p {
 
 .footer-copyright p {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .filter-range {
@@ -329,12 +330,13 @@ form p {
 
 .price-controls {
   position: relative;
-  height: 33px;
   margin-bottom: 20px;
   width: 320px;
   font-size: 0;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  padding: 5px 0px;
+  margin-left: 11px;
 }
 
 .price-controls::after {
@@ -351,7 +353,6 @@ form p {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 38px;
   vertical-align: top;
   cursor: pointer;
 }
@@ -374,6 +375,7 @@ form p {
 .range-controls {
   position: relative;
   margin-bottom: 32px;
+  margin-left: 11px;
 }
 
 .range-controls .scale {
@@ -445,6 +447,7 @@ form p {
   width: 74px;
   text-align: center;
   margin-right: 40px;
+  word-break: break-all;
 }
 
 .index-search .children {
@@ -481,7 +484,7 @@ form p {
 }
 
 .filter {
-  background: #406c90 url(../img/photo-sedona3.jpg) no-repeat;
+  background: #406c90 url(../img/photo-sedona3.jpg) no-repeat 0px -55px;
 }
 
 .filter-accommodation-type, .filter-infrastructure {
@@ -540,7 +543,7 @@ label {
 }
 
 .filter-value {
-  padding: 30px 0 29px;
+  padding: 31px 0 27px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -663,7 +666,7 @@ label {
 
 .item-type {
   margin-right: 6px;
-  margin-bottom: 14px;
+  margin-bottom: 11px;
   font-size: 14px;
   line-height: 21px;
 }
@@ -681,7 +684,7 @@ label {
 
 .item-total-rating {
   float: right;
-  margin-top: 43px;
+  margin-top: 36px;
   padding: 5px 13px;
   background: #f2f2f2;
   color: #8b8b8b;
@@ -837,7 +840,10 @@ label {
 }
 
 .modal-form {
-  padding: 55px 54px;
+  padding: 60px 54px;
+  position: absolute;
+  width: 461px;
+  display: none;
 }
 
 .date-arrival label {
@@ -870,11 +876,18 @@ label {
 }
 
 .person-counter {
-  float: left;
   font-weight: 700;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.person-counter-left {
+  float: left;
+}
+
+.person-counter-right {
+  float: right;
 }
 
 .person-counter label {
@@ -915,7 +928,7 @@ label {
 .btn-search {
   margin-top: 55px;
   width: 458px;
-  height: 58px;
+  padding: 16px 0;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
@@ -935,10 +948,12 @@ label {
   position: relative;
 }
 
+
 .kid {
-  margin-left: 52px;
   margin-right: 27px;
+  word-break: break-all;
 }
+
 
 .icon-minus:before {
   content: "-";
@@ -1037,7 +1052,6 @@ label {
   display: inline-block;
   margin-right: 20px;
   border-radius: 2px;
-  color: ;
   content: "\2610";
   vertical-align: top;
   font-size: 26px;
@@ -1070,4 +1084,24 @@ footer {
   margin: 18px 0;
   color: #000000;
   text-decoration: none;
+}
+
+.features b {
+ word-break: normal;
+}
+
+.description-right p {
+  margin-bottom: 48px;
+}
+
+.item-bottom {
+  background: #eeeeee;
+}
+
+.modal-content-show {
+  display: block;
+  animation: bounce .8s;
+}
+
+.map {
 }
